@@ -10,7 +10,7 @@ RUN apt-get upgrade -y
 RUN apt-get install curl -y
 RUN apt-get install sudo -y
 RUN apt-get install git-core -y
-RUN apt-get install mysqlclient -y
+RUN apt-get install libmysqlclient-dev -y
 RUN apt-get install nodejs -y
 
 # Setup User
