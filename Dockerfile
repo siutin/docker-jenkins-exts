@@ -14,6 +14,7 @@ RUN apt-get install libmysqlclient-dev -y
 RUN apt-get install nodejs -y
 RUN apt-get install libyaml-dev -y
 RUN apt-get install imagemagick -y
+RUN apt-get install build-essential -y 
 
 # Setup User
 RUN adduser jenkins sudo
