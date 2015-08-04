@@ -1,6 +1,6 @@
 FROM jenkins:latest
 MAINTAINER Martin Chan <osiutino@gmail.com>
-ENV REFRESHED_AT 2015-04-11
+ENV REFRESHED_AT 2015-07-23
 
 USER root
 
